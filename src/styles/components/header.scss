@@ -1,0 +1,18 @@
+nav {
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    .wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    a {
+        color: #fff;
+        left: 50%;
+        font-size: 20px;
+        padding: 40px;
+        font-family: 'work sans', sans-serif;
+    }
+}

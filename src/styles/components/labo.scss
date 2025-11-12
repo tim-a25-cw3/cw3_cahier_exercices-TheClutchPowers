@@ -1,0 +1,46 @@
+.labo {
+    background-color: #000;
+    color: #fff;
+    .wrapper {
+        h2 {
+            font-family: 'work sans', sans-serif;
+            margin: 0;
+            padding: 40px 0;
+            font-weight: 100;
+        }
+    }
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        h2 {
+            font-size: 16px;
+            text-transform: uppercase;
+            font-family: 'work sans', sans-serif;
+            padding: 0;
+        }
+        h3 {
+            font-weight: 300;
+            font-size: 18px;
+            font-family: 'work sans', sans-serif;
+            text-transform: uppercase;
+        }
+        p {
+            font-weight: 100;
+            font-size: 32px;
+            font-family: 'work sans', sans-serif;
+        }
+        a {
+            background-color: var(--color-primary);
+            border-radius: 8px;
+            padding: 10px 30px;
+            color: #fff;
+        }
+        a:hover {
+            color: #000;
+            background-color: #fff;
+            text-decoration: none;
+        }
+    }
+}
